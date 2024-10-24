@@ -1,3 +1,4 @@
-django==1.2
-flask==0.6
-requests==2.26.0
+django==4.2.16
+flask==2.2.5
+requests==2.32.2
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
